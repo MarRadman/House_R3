@@ -2,7 +2,6 @@
 // TODO: Implement bugermenu and fix the navmenu with the correct styling.
 import houseTitle from "@/assets/HouseTitle.svg";
 import burgerMenu from "@/assets/BurgerMenu.svg";
-import house1 from "@/assets/House1.svg";
 
 const Header = () => {
   return (
@@ -13,15 +12,10 @@ const Header = () => {
           <img src={burgerMenu} alt="Burger menu" />
         </div>
       </nav>
-      <div>
-        {/* <img
-          src={house1}
-          alt="House nr 1 on a mountain"
-          className="image-container-header"
-        /> */}
+      <div className="hero-container">
         <section className="image-content-header">
           <article>
-            <h2>Unika hus i en unik miljö</h2>
+            <h2 id="header-title">Unika hus i en unik miljö</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
               erat tempor, fringilla nunc vitae, laoreet velit. Suspendisse eu

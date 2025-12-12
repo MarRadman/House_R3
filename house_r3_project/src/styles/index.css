@@ -23,20 +23,22 @@ p {
 
 /* Header component */
 header {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-image: url("../assets/House1.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 50%;
   width: 100%;
+  height: 697px;
+  margin: 0 auto;
 }
 
 header nav {
-  display: flex;
-  position: absolute;
+  position: relative;
   width: 100%;
+  z-index: 10;
 }
 
 .navItems {
@@ -55,21 +57,62 @@ header nav {
 
 .image-content-header {
   position: absolute;
-  top: 20%;
+  top: 35%;
   left: 60%;
   color: white;
   z-index: 1;
   color: #ffffff;
 }
 
-/* Main section */
-
-.aside-container {
+.hero-container {
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  padding: 0 5%;
+}
+
+#header-title {
   width: 100%;
   height: auto;
 }
 
+/* Main section */
+
+.section1-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.article1-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 5%;
+}
+
+.article1-container h2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.aside-container {
+  display: flex;
+  flex-direction: column;
+  width: 47.5%;
+  height: auto;
+}
+
+.section-container-images {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
 /* Image container */
 
 .image-container {
@@ -133,6 +176,7 @@ button {
   clip-path: polygon(0 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 0%);
   transition: background-color 0.3s ease;
   justify-content: center;
+  border-radius: 5%;
 }
 
 .blackButton {
@@ -145,6 +189,12 @@ button {
   color: #1e1e1e;
 }
 
-button:hover {
-  background-color: #768e3e;
+.blackButton:hover {
+  background-color: #ffffff;
+  color: #1e1e1e;
+}
+
+.whiteButton:hover {
+  background-color: #2b2b2b;
+  color: #ffffff;
 }
