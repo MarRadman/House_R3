@@ -130,15 +130,17 @@ header nav {
 /* Image container */
 
 .section-container-images {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   height: auto;
+  gap: 0;
 }
 
 .image-container {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 100%;
 }
 
 .image-container img {
@@ -148,15 +150,26 @@ header nav {
 }
 
 .image-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: start;
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   z-index: 1;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.image-content h2 {
+  align-self: flex-start;
+  margin: 0;
+}
+
+.image-content button {
+  align-self: flex-end;
+  margin-top: auto;
 }
 
 /* Footer component */
@@ -188,7 +201,7 @@ button {
   display: flex;
   flex-direction: row;
   font-family: "DM Sans", sans-serif;
-  width: 100px;
+  min-width: 126px;
   height: 40px;
   align-items: center;
   border-color: rgba(0, 0, 0, 0);
