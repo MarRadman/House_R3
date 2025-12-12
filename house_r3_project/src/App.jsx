@@ -59,7 +59,7 @@ const App = () => {
           <aside className="image-container">
             <img src={house3} alt="House nr 3 on a mountain" />
             <article className="image-content">
-              <h2>Tillvall</h2>
+              <h2>Tillval</h2>
               <button className="whiteButton">LÄS MER</button>
             </article>
           </aside>

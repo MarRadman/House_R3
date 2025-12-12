@@ -6,11 +6,9 @@ import burgerMenu from "@/assets/burgerMenu.png";
 const Header = () => {
   return (
     <header>
-      <nav>
-        <div className="navItems">
-          <img src={houseTitle} alt="House Title" />
-          <img src={burgerMenu} alt="Burger menu" id="burgerMenu" />
-        </div>
+      <nav className="navItems">
+        <img src={houseTitle} alt="House Title" />
+        <img src={burgerMenu} alt="Burger menu" id="burgerMenu" />
       </nav>
       <div className="hero-container">
         <section className="image-content-header">

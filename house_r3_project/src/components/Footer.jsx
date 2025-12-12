@@ -6,13 +6,11 @@ const Footer = () => {
   return (
     <footer>
       <section className="footerItems">
-        <div className="footerList">
-          <ol>
-            <ul>Våra hus</ul>
-            <ul>Tillval</ul>
-            <ul>Hållbarhet</ul>
-          </ol>
-        </div>
+        <ul className="footerList">
+          <li>Våra hus</li>
+          <li>Tillval</li>
+          <li>Hållbarhet</li>
+        </ul>
         <article className="footerArticle">
           <p>
             Morbi ornare sagittis dui, at dictum nulla bibendum non. Nullam
@@ -26,7 +24,7 @@ const Footer = () => {
         alt="House title"
         height={"auto"}
         width={"96%"}
-        style={{ margin: "0% 2% 0% 2%" }}
+        style={{ margin: "5% 2% 0% 2%" }}
       />
     </footer>
   );
