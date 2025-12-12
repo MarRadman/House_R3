@@ -14,7 +14,7 @@ const Header = () => {
         <section className="image-content-header">
           <article>
             <h2 id="header-title">Unika hus i en unik miljö</h2>
-            <p>
+            <p id="header-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
               erat tempor, fringilla nunc vitae, laoreet velit. Suspendisse eu
               tortor eu odio dapibus molestie nec quis ipsum.

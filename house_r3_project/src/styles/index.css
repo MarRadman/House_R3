@@ -249,6 +249,22 @@ button {
 
 /* Mobile responsive */
 @media (max-width: 768px) {
+  h2 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #header-title {
+    font-size: 28px;
+  }
+
+  #header-text {
+    color: rgb(255, 255, 255, 1);
+  }
+
   .navItems {
     padding-top: 5%;
     width: 95%;
