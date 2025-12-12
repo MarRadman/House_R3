@@ -12,19 +12,19 @@ Testprojekt baserat på design för ett fiktivt företag.
 
 - Klona projektet
 
-* git clone <repo-url>
+git clone <repo-url>
 
 - Installera beroenden
 
-* npm install
+npm install
 
 - Cd till projektet vi konsolen
 
-* cd "house_r3_project"
+cd "house_r3_project"
 
 - Starta projektet
 
-* npm run dev
+npm run dev
 
 # Techstack
 
