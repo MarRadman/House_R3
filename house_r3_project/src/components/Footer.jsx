@@ -1,6 +1,6 @@
 // Footer.
 // TODO: Implement text and bullet point menu with the correct styling.
-import houseTitleFooter from "@/assets/houseTitleFooter.svg";
+import houseTitleFooter from "@/assets/houseTitleFooter.png";
 
 const Footer = () => {
   return (

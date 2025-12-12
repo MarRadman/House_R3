@@ -1,7 +1,7 @@
 // Header & Navmenu.
 // TODO: Implement bugermenu and fix the navmenu with the correct styling.
-import houseTitle from "@/assets/HouseTitle.svg";
-import burgerMenu from "@/assets/BurgerMenu.svg";
+import houseTitle from "@/assets/houseTitle.png";
+import burgerMenu from "@/assets/burgerMenu.png";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <nav>
         <div className="navItems">
           <img src={houseTitle} alt="House Title" />
-          <img src={burgerMenu} alt="Burger menu" />
+          <img src={burgerMenu} alt="Burger menu" id="burgerMenu" />
         </div>
       </nav>
       <div className="hero-container">

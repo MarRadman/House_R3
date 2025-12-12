@@ -3,22 +3,25 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424; /* #FFFFFF default */
   width: 100%;
+  height: auto;
   display: flex;
 }
 
 h2 {
   font-family: "DM Mono", sans-serif;
   font-weight: 500;
+  color: rgb(255, 255, 255, 0.9);
 }
 
 p {
   font-family: "DM Sans", sans-serif;
   font-weight: 300;
+  font-size: 18px;
+  color: rgb(255, 255, 255, 0.7);
 }
 
 /* Header component */
@@ -26,7 +29,7 @@ header {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-image: url("../assets/House1.svg");
+  background-image: url("../assets/house1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +46,7 @@ header nav {
 
 .navItems {
   display: flex;
-  width: 100%;
+  width: 95%;
   justify-content: space-between;
   padding: 2%;
 }
@@ -73,8 +76,12 @@ header nav {
 }
 
 #header-title {
-  width: 100%;
-  height: auto;
+  font-size: 34px;
+}
+
+#burgerMenu {
+  min-width: 30px;
+  max-height: 25px;
 }
 
 /* Main section */
@@ -85,35 +92,48 @@ header nav {
   width: 100%;
   height: auto;
   align-items: center;
+  padding: 2rem 0;
+  background-color: #2b2b2b;
 }
 
 .article1-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50%;
-  gap: 5%;
+  width: 70%;
+  max-width: 1200px;
 }
 
-.article1-container h2 {
+#article-title {
   width: 100%;
   height: auto;
-  margin-bottom: 0;
+  margin-bottom: 0.1%;
+  font-size: 34px;
+}
+
+.aside-container-separate {
+  display: flex;
+  gap: 5%;
 }
 
 .aside-container {
   display: flex;
   flex-direction: column;
-  width: 47.5%;
+  width: 100%;
   height: auto;
 }
+
+.aside-container p {
+  text-align: justify;
+}
+
+/* Image container */
 
 .section-container-images {
   display: flex;
   width: 100%;
   height: auto;
 }
-/* Image container */
 
 .image-container {
   position: relative;
@@ -136,7 +156,6 @@ header nav {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
   z-index: 1;
 }
 
