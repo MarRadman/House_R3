@@ -6,8 +6,6 @@ Testprojekt baserat på design för ett fiktivt företag.
 
 Återskapa den skiss som finns för det fiktiva företaget House. Skissen ska i möjligaste mån bli verklighet. Du bestämmer själv om du vill bygga i statisk html och css, eller använda dig av t.ex. React och Tailwind, förklara gärna dina val. När desktop är klar tolkar du designen för mobil enhet.
 
-`
-
 # Att starta projektet
 
 - Klona projektet
@@ -18,7 +16,7 @@ git clone <repo-url>
 
 npm install
 
-- Cd till projektet vi konsolen
+- Navigerar till projektet
 
 cd "house_r3_project"
 
@@ -28,7 +26,7 @@ npm run dev
 
 # Techstack
 
-React (Vite eller Next – välj rätt)
+- React & Vite
 
 - Vanlig CSS
 
